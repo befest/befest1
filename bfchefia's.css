@@ -1,0 +1,400 @@
+body{
+    padding-top: 150px;
+}
+
+#partedecima{
+    background-color: #ff0080;
+    width: 100%;
+
+}
+header{
+    background-color: #ff0080;
+    width: 100%;
+    height: 140px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#logo1{
+    width: 13%;
+    height: 150px;
+    position: absolute;
+    left: 10px;
+    top: -10px;
+
+}
+#barradepesquisa{
+    position: absolute;
+    right: 370px;
+    top: 40px;
+    padding: 10px;
+    height: 60px;
+    width: 400px;
+    font-size: 11pt;
+    border: 1px solid #9c0041;
+    border-radius: 30px;
+
+}
+#newfest{
+    position: absolute;
+    top: 50px;
+    right: 5px;
+    padding: 10px;
+    width: 150px;
+    background-color: #ff0080;
+    border: 5px solid #9c0041;
+    border-radius: 30px;
+    font-family: 'Helvetica';
+    color: #9c0041;
+}
+#newfest:hover{
+    background-color: #9c0041;
+    color: white;
+    transition: 0.50s;
+}
+#festpedidos{
+    position: absolute;
+    top: 50px;
+    right: 160px;
+    padding: 10px;
+    width: 150px;
+    background-color: #ff0080;
+    border: 5px solid white;
+    border-radius: 30px;
+    font-family: 'Helvetica';
+    color: white;
+}
+#festpedidos:hover{
+    background-color: white;
+    color:#ff0080;
+    transition: 0.50s;
+}
+.decima{
+    display: inline;
+    position: relative ;
+    margin: 15px;
+    top: 40px;
+    left: 140px;
+    color: #9c0041;
+    align-self: center;
+    font-family: 'bahnschrift';
+    font-size: 10pt;
+}
+.decima:hover{
+    color: white;
+    transition: 0.50s;
+}
+.avatar{
+    width: 4%;
+    height: 30px;
+    position: absolute;
+    right: 310px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.inputserviços{
+    width: 9%;
+    height: 40px;
+    margin: 1px;
+    margin-left: 40px;
+    background-color: white;
+    color: #9c0041;
+    border:5px solid #9c0041;
+    border-radius: 30px;
+    font-family: 'bahnschrift';
+}
+.inputserviços:hover{
+    background-color: #9c0041;
+    color: white;
+    transition: all 0.50s;
+}
+.fotoserv{
+    display: inline;
+    width: 18%;
+    margin-top: 50px;
+    padding: 10px;
+}
+.tittexto{
+    color: #9c0041;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pedidos{
+    color: black;
+    font-family: 'bahnschrift';
+}
+.topicos{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#agenda{
+    display: inline;
+}
+.agendadesc{
+    background-color: white;
+    width: 40%;
+    height: 600px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-top: -10px;
+    margin-left: 50px;
+    -webkit-box-shadow: 9px 7px 5px rgba(226, 226, 226, 0.932);
+    -moz-box-shadow:    9px 7px 5px rgba(226, 226, 226, 0.932);
+    box-shadow:         9px 7px 5px rgba(226, 226, 226, 0.932);
+
+}
+
+.titulodesc{
+    color: white;
+    font-size: 25pt;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 190px;
+    padding-top: 10px ;
+}
+
+.descricaoranking{
+    color: black;
+    font-size: 11pt;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 860px;
+}
+.ranking123{
+    margin-left: 820px;
+    margin-top: 50px;
+    font-family: 'bahnschrift';
+    font-size: 20pt;
+    padding-bottom: 20px;
+}
+.fileira2{
+    display: inline-block;
+    background-color: rgb(240, 242, 255);
+    width: 30%;
+    height: 50px;
+    padding: 15px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 810px;
+}
+.fileira2:hover{
+    width: 30.5%;
+    height: 50.5px;
+    transition: 0.36s all;
+    -webkit-box-shadow: 9px 7px 5px rgba(226, 226, 226, 0.932);
+		-moz-box-shadow:    9px 7px 5px rgba(226, 226, 226, 0.932);
+		box-shadow:         9px 7px 5px rgba(226, 226, 226, 0.932);
+
+}
+.barretos{
+    width: 20%;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: -15px;
+}
+.descfestcolab{
+    margin-top: 5px;
+}
+.cimaagenda{
+    background-color:#9c0041;
+    width: 40%;
+    height: 80px;
+    margin-left: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.areadeatuaçao{
+    font-family: 'bahnschrift';
+    font-size: 8pt;
+    margin-left: 120px;
+    margin-top: 5px;
+}
+.titulotop{
+    margin-left: 120px;
+    margin-top: -60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+}
+#barretos{
+    width: 20%;
+    height: 80px;
+    margin-top: -5px;
+}
+.fileira1{
+    display: inline-block;
+    background-color: rgb(240, 242, 255);
+    width: 80%;
+    height: 50px;
+    padding: 15px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.fileira1:hover{
+    width: 80.5%;
+    height: 50.5px;
+    transition: 0.36s all;
+    -webkit-box-shadow: 9px 7px 5px rgba(226, 226, 226, 0.932);
+		-moz-box-shadow:    9px 7px 5px rgba(226, 226, 226, 0.932);
+		box-shadow:         9px 7px 5px rgba(226, 226, 226, 0.932);
+}
+.setav{
+    width: 7%;
+    height: 14px;
+    margin-left: 170px;
+    margin-top: -25px;
+    padding-top: 5px;
+}
+
+.mais{
+    display: inline-block;
+    color: rgb(218, 218, 218); 
+    background-color: rgb(138, 138, 138);
+    border: 2px solid  rgb(138, 138, 138);
+    width: 8%;
+    height: 30px;
+    margin-left: 7px;
+    margin-top: 7px;
+    border-radius: 3px;
+}
+.calendario{
+    width: 100%;
+    margin-left: -10px;
+    margin-top: -15px;
+}
+.mes{
+    width: 15%;
+    height: 20px;
+    background-color: red;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.mes1{
+    font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    padding-top: 5px;
+    color: aliceblue;
+
+}
+.dia{
+    width: 15%;
+    height: 45px;
+    background-color: rgb(255, 255, 255);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.dia1{
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 18px;
+    margin-top: 0px;
+    padding-top: 8px;
+    color: black;
+}
+.horaini{
+    width: 20%;
+    height: 40px;
+    margin-top: -63px;
+    margin-left: 358px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 0px;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+    background-color: rgb(255, 108, 108);
+
+
+}
+.horainicio{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    color: white;
+    margin-left: 30px;
+    padding-top: 13px;
+}
+.horafim{
+    width: 20%;
+    height: 40px;
+    margin-top: -5px;
+    margin-left: 358px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 20px;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    background-color: rgb(255, 108, 108);
+
+}
+.horafinal{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    color: white;
+    margin-left: 30px;
+    margin-top: 13px;
+
+}
+.relogio{
+    width: 10%;
+    height: 10px;
+}
+.contrato{
+    font-size: 5pt;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -15px;
+    margin-left: 150px;
+    text-decoration: underline;
+}
+.dados{
+    display: inline;
+  
+}
+
+.titulodados{
+    color: white;
+    font-size: 25pt;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 190px;
+    padding-top: 10px ;
+
+}
+.dadosdesc{
+    background-color: white;
+    width: 40%;
+    height: 600px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-top: 20px;
+    margin-left: 700px;
+    -webkit-box-shadow: 9px 7px 5px rgba(226, 226, 226, 0.932);
+    -moz-box-shadow:    9px 7px 5px rgba(226, 226, 226, 0.932);
+    box-shadow:         9px 7px 5px rgba(226, 226, 226, 0.932);
+
+}
+.cimadados{
+    background-color:#9c0041;
+    width: 40%;
+    height: 70px;
+    margin-top: -700px;
+    margin-left: 700px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+
+}
+.fileira3{
+    display: inline-block;
+    background-color: rgb(240, 242, 255);
+    width: 80%;
+    height: 100px;
+    padding: 15px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.fileira3:hover{
+    width: 80.5%;
+    height: 100.5px;
+    transition: 0.36s all;
+    -webkit-box-shadow: 9px 7px 5px rgba(226, 226, 226, 0.932);
+		-moz-box-shadow:    9px 7px 5px rgba(226, 226, 226, 0.932);
+		box-shadow:         9px 7px 5px rgba(226, 226, 226, 0.932);
+}

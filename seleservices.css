@@ -1,0 +1,164 @@
+body{
+    padding-top: 150px;
+}
+
+#partedecima{
+    background-color: #ff0080;
+    width: 100%;
+
+}
+header{
+    background-color: #ff0080;
+    width: 100%;
+    height: 140px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#logo1{
+    width: 13%;
+    height: 150px;
+    position: absolute;
+    left: 10px;
+    top: -10px;
+
+}
+#barradepesquisa{
+    position: absolute;
+    right: 370px;
+    top: 40px;
+    padding: 10px;
+    height: 60px;
+    width: 400px;
+    font-size: 11pt;
+    border: 1px solid #9c0041;
+    border-radius: 30px;
+
+}
+#newfest{
+    position: absolute;
+    top: 50px;
+    right: 5px;
+    padding: 10px;
+    width: 150px;
+    background-color: #ff0080;
+    border: 5px solid #9c0041;
+    border-radius: 30px;
+    font-family: 'Helvetica';
+    color: #9c0041;
+}
+#newfest:hover{
+    background-color: #9c0041;
+    color: white;
+    transition: 0.50s;
+}
+#festpedidos{
+    position: absolute;
+    top: 50px;
+    right: 160px;
+    padding: 10px;
+    width: 150px;
+    background-color: #ff0080;
+    border: 5px solid white;
+    border-radius: 30px;
+    font-family: 'Helvetica';
+    color: white;
+}
+#festpedidos:hover{
+    background-color: white;
+    color:#ff0080;
+    transition: 0.50s;
+}
+.decima{
+    display: inline;
+    position: relative ;
+    margin: 15px;
+    top: 40px;
+    left: 115px;
+    color: #9c0041;
+    align-self: center;
+    font-family: 'bahnschrift';
+    font-size: 12pt;
+}
+.decima:hover{
+    color: white;
+    transition: 0.50s;
+}
+#avatar{
+    width: 4%;
+    height: 30px;
+    position: absolute;
+    right: 310px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.partedebaixo{
+    width: 70%;
+    height: 900px;
+    margin-left: 200px;
+    border-radius: 30px;
+    background-color: #f2f4ff
+    
+}
+.descriçãoservice{
+    margin-left: -50px;
+}
+.titulo{
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #9c0041;
+    padding-top: 30px;
+    margin-left: 380px;
+}
+.subtitulo{
+    font-size: 15pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-left: 440px;
+}
+.sub{
+    font-size: 15pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-left: 20px;
+}
+p,
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+}
+.checkbox{
+    margin-left: 430px;
+
+}
+.checkboxpack{
+    margin-left: 5px;
+
+}
+input {
+    margin: .4rem;
+}
+.newfest{
+    font-family: 'bahnschrift';
+    color: #9c0041;
+    background-color: #f2f4ff;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 30px;
+    border: 5px solid #9c0041;
+}
+.newfest:hover{
+    background-color: #9c0041;
+    color: #f2f4ff;
+    transition: all 0.50s;
+}
+.newfest:active{
+    background-color: #ff0080;
+    border: 5px solid #ff0080;
+    color: #f2f4ff;
+    transition: all 0.50s;
+}
